@@ -1,3 +1,7 @@
+# Discord Tab
+
+This is currently copied and pasted from the Google Messages GIT. I'll update it at some point.
+
 # Google Messages Tab
 Unofficial Google Messages add-on for Thunderbird, it adds a button that opens a Google Messages tab in Thunderbird.
 Go to [Thunderbird Add-ons page](https://addons.thunderbird.net/thunderbird/addon/google-messages-tab) for download and reviews.

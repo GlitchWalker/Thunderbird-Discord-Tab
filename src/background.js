@@ -4,7 +4,7 @@ function debug_msg(message){
   if(is_release){
     return;
   }
-  console.debug("Google-Messages-Tab: " + message);
+  console.debug("Discord-Tab: " + message);
 }
 
 debug_msg("Loading");
@@ -18,10 +18,10 @@ if ("browserAction" in browser) {
   debug_msg("Has permision for browserAction");
 
   browser.browserAction.onClicked.addListener(async () => {
-    openNewTab("https://messages.google.com/web");
+    openNewTab("https://discord.com/channels/@me");
   });
 } else {
-  openNewTab("https://messages.google.com/web");
+  openNewTab("https://discord.com/channels/@me");
 }
 
 debug_msg("Loaded");
